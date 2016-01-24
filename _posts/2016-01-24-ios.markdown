@@ -1,0 +1,28 @@
+---
+published: false
+title: iOS 高鐵時刻表開發一
+layout: post
+---
+# 開發前基本知識
+
+Xcode - Apple 開發的一個開發工具，裡面整合了程式編輯 IDE，視覺 UI 編輯，模擬器，效能測試等等。
+
+Objective-C - Macbook, iPhone, iPad, Apple Watch, Apple TV 開發語言。
+
+Library - 支援庫，在程式語言中，這表示別人寫好的程式，可以透過支援庫使用軟體功能，例如 VLC 是一個開放軟體，他可以播放 avi, fly, rm 許多 iPhone 不支援的影片檔格式，VLC 有多個 支援庫是給 iOS 使用的，只要使用支援庫就可以有相同的功能。
+
+Static Library - 靜態支援庫，軟體中使用會把這些支援庫加入到所開發的程式裡面，相對的程式會變大。
+
+動態 Library - 動態支援庫，是系統中已經有提供這些支援庫，再以播放影片來說明，Apple 有提供一個 Framework 播放影片，所以使用了播放影片的功能要加入 AVFoundation.framework 才可以成功編譯，解釋到這裡是不是想在手機中所提供的照相，email，瀏覽器，簡訊，聯絡人等等，Apple 都相對的提供 Framework 給開法者使用。
+
+Framework - 在 Apple 的作業系統中 (OSX, iOS, WatchOS, tvOS) 動態 Library 的統稱。
+
+cocoa - Objective-C 在 Mac OSX 中最主要的 Framework 。
+
+Swift - Apple 新開發的語言，未來將會取代 Objective-C。
+
+# Q&A
+
+1. 是否只能使用 Mac 開發 YES
+2. 要選哪一個語言 新手直接先跳過 Objective-C 學習 Swift 
+3. 
