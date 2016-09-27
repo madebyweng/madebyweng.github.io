@@ -100,11 +100,11 @@ snapshot
 
 1. 使用 `init` 產生設定檔案
 
-	```shell
-	deliver init
-	```
-	
-	會自動連結到網站產生所有的資料
+>	```shell
+>	deliver init
+>	```
+>	
+>	會自動連結到網站產生所有的資料
 
 2. 編輯或修改設定檔案
 
