@@ -3,18 +3,6 @@ published: true
 title: Xcode build tools
 layout: post
 ---
-Title: 
-
-title: Xcode build tools  
-date: 2016-06-02  
-tags:
-
--   Xcode
--   iOS  
-    ---
-
-
-
 Xcode 固定每年會更新一次以上，更新後的 Xcode 最麻煩的一件事情原本在舊版本可以正常無誤 build ，更新後卻無法正常 build，小一點的只要小修改，嚴重的話幾乎要花上一整天的時間再修改設定，使用 pod 可以把問題降到最少。
 
 # Pod
